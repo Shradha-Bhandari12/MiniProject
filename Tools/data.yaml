@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['drill', 'hammer', 'pliers', 'screwdriver', 'wrench']
+
+roboflow:
+  workspace: mechanical-tools
+  project: mechanical-tools-10000
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mechanical-tools/mechanical-tools-10000/dataset/3
